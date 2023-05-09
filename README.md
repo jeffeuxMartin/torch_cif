@@ -4,12 +4,18 @@ A fast parallel implementation pure PyTorch implementation of *"CIF: Continuous 
 
 ## Installation
 
-This fork is for easy installation through pip.
+This fork is for easy installation through pip. The original author is [Chih-Chiang Chang (George0828Zhang)](https://github.com/George0828Zhang).
 
 ```bash
 git clone https://github.com/jeffeuxMartin/torch_cif
 cd torch_cif
 pip install .
+```
+
+Then you can use it through
+
+```python
+from torch_cif import cif_function
 ```
 
 ## Usage
