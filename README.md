@@ -2,6 +2,16 @@
 
 A fast parallel implementation pure PyTorch implementation of *"CIF: Continuous Integrate-and-Fire for End-to-End Speech Recognition"*  https://arxiv.org/abs/1905.11235.
 
+## Installation
+
+This fork is for easy installation through pip.
+
+```bash
+git clone https://github.com/jeffeuxMartin/torch_cif
+cd torch_cif
+pip install .
+```
+
 ## Usage
 ```python
 def cif_function(
